@@ -64,7 +64,7 @@ onMounted(() => {
 
 <template>
   <div class="board-total-cost">
-    <canvas ref="ctx" width="730" />
+    <canvas ref="ctx" width="700" height="400" />
   </div>
 </template>
 
@@ -74,5 +74,6 @@ onMounted(() => {
   padding: 16px;
   border-radius: var(--base-border-radius);
   background-color: var(--white);
+  height: fit-content;
 }
 </style>

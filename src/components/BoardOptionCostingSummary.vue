@@ -51,7 +51,7 @@ onMounted(() => {
 
 <template>
   <div class="board-total-cost">
-    <canvas ref="ctx" width="700" />
+    <canvas ref="ctx" width="700" height="400" />
   </div>
 </template>
 
